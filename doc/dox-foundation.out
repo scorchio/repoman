@@ -1,0 +1,6 @@
+[ 'lib/cli.js',
+  'lib/generator/bitbucket.js',
+  'lib/generator/github.js',
+  'lib/generator/gitorious.js',
+  'lib/generator/local.js',
+  'lib/repoman.js' ]
