@@ -16,7 +16,8 @@
         { "arg": "--github-org <githubOrg>", "desc": "Comma-separated GitHub organisations" },
         { "arg": "--github-auth-user <githubAuthUser>", "desc": "GitHub authentication username" },
         { "arg": "--github-auth-pass <githubAuthPass>", "desc": "GitHub authentication password" },        
-        { "arg": "--github-use-ssh", "desc": "Use the ssh url from Github instead of the standard clone url where possible" },        
+        { "arg": "--github-use-ssh", "desc": "Use the ssh url from Github instead of the standard clone url where possible" },  
+        { "arg": "--github-query <githubQuery>", "desc": "GitHub query to use" },      
         { "arg": "--gitorious-url <gitoriousUrl>", "desc": "Gitorious URL" },
         { "arg": "--gitorious-project <gitoriousProject>", "desc": "Comma-separated Gitorious projects" },
         { "arg": "--local", "desc": "Create configuration file from local repositories" },
@@ -25,6 +26,7 @@
       "examples": [
         "repoman config --github-user <user>",
         "repoman config --github-org <org>",
+        "repoman config --github-query <query>",
         "repoman config --local"
       ]
     },
